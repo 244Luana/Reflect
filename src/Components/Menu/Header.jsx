@@ -1,26 +1,21 @@
-// import React from "react";
+import React from "react";
+import { Button } from '../Utils/Button'
 
-// function Header() {
-//   // const Title = (
-//   //   <h1> 
-//   //     This Is Reflect
-//   //   </h1>
-//   // );
-
-//   // const Line = (
-
-//   // );
+function Header() {
   
-  
-//   // return (
-//     // <div className="Home">
-//     //   {/* <header>
-//     //     <p> 
-//     //         When Will My Reflection Show Who I Am Inside?
-//     //     </p> 
-//     //   </header> */}
-//     // </div>
-//   // );
-// }
+  return (
+    <div className="Home">
+      <header>
+        <title align-itens='center'> 
+            This Is Reflect
+        </title>
+        <p> 
+            When Will My Reflection Show Who I Am Inside?
+        </p> 
+        <Button/>
+      </header>
+    </div>
+  );
+}
 
-// export default Header;
+export default Header;
