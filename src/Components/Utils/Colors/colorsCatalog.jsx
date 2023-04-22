@@ -7,4 +7,5 @@ export const Pallete = {
     cian: '#0FFFFF',
     lime: '#87FF0F',
     lilac: '#FFE8FF',
+    blueAlmostWhite: '#F0FFFF',
 }
