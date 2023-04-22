@@ -1,5 +1,5 @@
 import React from "react";
-import { Title, MenuSelection } from '../Utils/MenuTitle';
+import { MenuTitle, MenuSelection, PageTitle } from '../Utils/MenuTitle';
 import { Button } from '../Utils/Button';
 
 function Header() {
@@ -7,16 +7,17 @@ function Header() {
   return (
     <div className="Home">
       <header>
-        <Title> 
-            THIS IS REFLECT
-        </Title>
         <MenuSelection>
+          <MenuTitle> REFLECT </MenuTitle>
           <Button> HOME </Button>
           <Button> ABOUT ME </Button>
-          <Button> NEWS </Button>
           <Button> MY PROJECTS </Button>
+          <Button> MY SKILLS </Button>
           <Button> REFLECTIONS </Button>
         </MenuSelection>
+        <PageTitle> 
+            THIS IS REFLECT
+        </PageTitle>
         <p> 
             When Will My Reflection Show Who I Am Inside?
         </p> 
