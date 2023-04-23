@@ -1,5 +1,3 @@
-import styled from "styled-components";
-
 export const Pallete = {
     white: '#FFFFFF',
     black: '#000000',
