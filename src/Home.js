@@ -1,12 +1,12 @@
 import React from "react";
-import Header from './Components/Menu/Header';
+import Home from './Components/Home/Home';
 
-function Home() {
+function Index() {
   return (
-    <div className="Home">
-      <Header />
+    <div className="Index">
+      <Home />
     </div>
   );
 }
 
-export default Home;
+export default Index;
