@@ -1,26 +1,19 @@
-import React from "react";
-import { MenuTitle, MenuSelection, PageTitle } from '../Utils/MenuTitle';
+import React from 'react';
+import { MenuTitle, MenuSelection } from '../Utils/MenuTitle';
 import { Button } from '../Utils/Button';
 
 function Header() {
-  
   return (
-    <div className="Home">
+    <div className="MenuHome">
       <header>
         <MenuSelection>
           <MenuTitle> REFLECT </MenuTitle>
-          <Button> HOME </Button>
-          <Button> ABOUT ME </Button>
-          <Button> MY PROJECTS </Button>
-          <Button> MY SKILLS </Button>
-          <Button> REFLECTIONS </Button>
+          <Button href="#home"> Home </Button>
+          <Button href="#about"> About Me </Button>
+          <Button href="#projects"> My Projects </Button>
+          <Button href="#skills"> My Skills </Button>
+          <Button href="#reflections"> Reflections </Button>
         </MenuSelection>
-        <PageTitle> 
-            THIS IS REFLECT
-        </PageTitle>
-        <p> 
-            When Will My Reflection Show Who I Am Inside?
-        </p> 
       </header>
     </div>
   );

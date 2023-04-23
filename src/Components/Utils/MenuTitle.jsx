@@ -10,9 +10,9 @@ export const MenuTitle = styled.div`
 `
 
 export const MenuSelection = styled.div`
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
-    justify-content: center;
     height: 60px;
 `
 
